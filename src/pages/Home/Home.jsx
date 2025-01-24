@@ -1,12 +1,9 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React from "react";
+import Hero from "../../components/Hero/Hero";
 
 const Home = () => {
-  return (
-    <div className='text-white'>
-        HOME
-    </div>
-  )
-}
+  return <Hero />;
+};
 
-export default Home
+export default Home;
