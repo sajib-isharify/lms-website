@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
 
         <div className="max-w-4xl text-center mt-[20px]">
           <p className="text-[#FCFDFF] text-[14px] font-poppins font-[500px] leading-[24px]">Introducing PippaSync</p>
-          <button type="button" className="bg-[#8DDC50] text-[#223003] text-[14px] font-poppins font-[700px] leading-[24px] px-5 py-1">
+          <button type="button" className="bg-[#8DDC50] text-[#223003] text-sm font-poppins font-[700px] leading-[24px] px-5 py-1">
             Get one month free
           </button>
         </div>
