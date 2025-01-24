@@ -1,3 +1,22 @@
 body {
   background-color: #080808;
 }
+
+/* styles.css or your global stylesheet */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 200% 0%;
+  }
+
+  100% {
+    background-position: -200% 0%;
+  }
+}
+
+.animate-gradient-text {
+  background: radial-gradient(121.77% 551.6% at 100% 50%, #D4D4D4 48.26%, rgba(106, 106, 106, 0.4) 98.58%);
+  background-size: 200% 100%;
+  color: transparent;
+  background-clip: text;
+  animation: gradientAnimation 7s ease-in-out infinite;
+}
