@@ -34,10 +34,10 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <span className="text-[#6A6A6A] hover:text-[#FCFDFF] transition-colors duration-700">Login</span>
             <span className="text-[#6A6A6A] hover:text-[#FCFDFF]">|</span>
-            <span className="text-[#8DDC50] text-[14px] font-medium hover:text-yellow-300 transition-colors duration-700">Is PippaSync Right For Me?</span>
+            <span className="text-[#8DDC50] text-sm font-medium hover:text-yellow-300 transition-colors duration-700">Is PippaSync Right For Me?</span>
           </div>
           <div className="flex gap-3">
-            <button className="text-[#FCFDFF] text-[14px] font-medium border-1 border-[#FCFDFF] hover:border-none hover:bg-[#8DDC50] hover:text-[#223003] px-4 py-1 cursor-pointer transition-colors duration-700">
+            <button className="text-[#FCFDFF] text-sm font-medium border-1 border-[#FCFDFF] hover:border-none hover:bg-[#8DDC50] hover:text-[#223003] px-4 py-1 cursor-pointer transition-colors duration-700">
               Webinar
             </button>
             <button className="relative px-4 py-2 text-[#223003] text-sm font-bold bg-[#8DDC50] cursor-pointer overflow-hidden group">
