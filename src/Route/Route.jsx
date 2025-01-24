@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import Home from "../pages/Home/Home"
 import VideoTutorials from '../pages/VideoTutorials/VideoTutorials'
 import Navbar from '../components/Navbar/Navbar'
+import Footer from '../components/Footer/Footer'
 
 const Index = () => {
     return (
@@ -14,6 +15,7 @@ const Index = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/video-tutorials" element={<VideoTutorials />} />
             </Routes>
+            <Footer />
         </>
     )
 }
