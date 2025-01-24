@@ -1,13 +1,11 @@
-import React from 'react';
+/* eslint-disable no-unused-vars */
+import React from "react";
+
 import "./App.css";
-import Home from './pages/Home/Home';
+import Index from "./Route/Route";
 
 function App() {
-  return (
-    <>
-      <Home />
-    </>
-  );
+  return <Index />;
 }
 
 export default App;
