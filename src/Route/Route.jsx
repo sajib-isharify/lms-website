@@ -6,6 +6,7 @@ import Home from "../pages/Home/Home"
 import VideoTutorials from '../pages/VideoTutorials/VideoTutorials'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
+import Blogs from '../pages/Blogs/Blogs'
 
 const Index = () => {
     return (
@@ -14,6 +15,7 @@ const Index = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/video-tutorials" element={<VideoTutorials />} />
+                <Route path='/blogs' element={<Blogs />} />
             </Routes>
             <Footer />
         </>

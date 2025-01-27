@@ -7,7 +7,7 @@ import lmsIcon from "../../assets/Pippasync final logo confirm-02 2.svg";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar font-poppins py-5 flex justify-evenly items-center">
+      <div className="navbar bg-[#080808] fixed top-0 w-full font-poppins py-5 flex justify-evenly items-center shadow-md z-50">
         <div className="flex justify-center items-center gap-10">
           <div>
             <img src={lmsIcon} alt="" />
